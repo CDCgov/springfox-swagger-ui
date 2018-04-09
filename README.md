@@ -1,11 +1,17 @@
 # springfox-swagger-ui
 This is the repository extending the Springfox Swagger UI package to meet CDC browser requirements.
 
-## ----- Start of respository specific READ ME -----
-### This repository specific READ ME instructions go here
+## Usage
 
-Replace everything within this section demarcated with “-----“ with material appropriate to your repo that is useful to your developers and users like installation steps, user guide etc.
-## ----- End of respository specific READ ME -----
+Add this line into your `pom.xml` to start using the Swagger UI.
+
+```
+<dependency>
+  <groupId>gov.cdc</groupId>
+  <artifactId>springfox-swagger-ui</artifactId>
+  <version>2.8.0</version>
+</dependency>
+```
   
 ## Public Domain
 This repository constitutes a work of the United States Government and is not
